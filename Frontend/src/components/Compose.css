@@ -1,0 +1,54 @@
+/* Update these styles in your compose.css file or style component */
+
+.compose-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .compose-container h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .compose-container label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .compose-container textarea,
+  .compose-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .compose-container button {
+    background-color: rgb(33,37,41);
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 150px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .compose-container button:hover {
+    background-color: #218838;
+  }
+  
+  
+  

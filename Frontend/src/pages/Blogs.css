@@ -1,0 +1,168 @@
+
+/* Blog.css */
+
+.blog-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.h1{
+  font-size: small;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* BlogSection.css */
+
+.blogs-section {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.blog-post:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-content {
+  padding: 15px;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+}
+
+.blog-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-images {
+  margin-bottom: 10px;
+}
+
+.blog-images img {
+  width: 50%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.blog-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+}
+
+.like,
+.comment,
+.delete {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.like:hover,
+.comment:hover,
+.delete:hover {
+  color: #0056b3;
+}
+
+.delete {
+  color: #ff5757;
+}
+
+.comment-input {
+  margin-top: 10px;
+  padding: 10px;
+  width: calc(100% - 20px);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.comment-submit {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.comment-submit:hover {
+  background-color: #0056b3;
+}
